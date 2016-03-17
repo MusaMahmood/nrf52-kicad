@@ -389,10 +389,6 @@ Wire Wire Line
 Connection ~ 2900 6200
 Wire Wire Line
 	900  5500 900  5900
-Wire Wire Line
-	2300 2200 2300 2600
-Wire Wire Line
-	2500 2200 2500 2600
 Connection ~ 4700 2800
 Connection ~ 2300 1700
 Wire Wire Line
@@ -461,20 +457,26 @@ Connection ~ 3300 1300
 Connection ~ 2900 1300
 Connection ~ 3100 1300
 Wire Wire Line
-	2700 2200 2700 2600
-Wire Wire Line
 	2700 1700 2700 1900
 Wire Wire Line
 	2300 1700 2700 1700
 Wire Wire Line
 	2300 1900 2300 1700
-Wire Wire Line
-	5300 2800 5600 2800
 Text Label 5500 2800 0    60   ~ 0
 RF
-Wire Wire Line
-	2300 2200 2700 2200
 Connection ~ 2500 2200
 Text Label 2300 2300 0    60   ~ 0
 VDD_nRF
+Connection ~ 2300 2200
+Connection ~ 2700 2200
+Wire Wire Line
+	5300 2800 5500 2800
+Wire Wire Line
+	2500 2600 2500 2200
+Wire Wire Line
+	2300 2600 2300 2200
+Wire Wire Line
+	2700 2200 2700 2600
+Wire Wire Line
+	2300 2200 2700 2200
 $EndSCHEMATC
